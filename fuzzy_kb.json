@@ -1,0 +1,22 @@
+{
+    "london_expensive": 0.90,
+    "mortgage_affordable": 0.35,
+    "property_investment": 0.85,
+    "firsttimebuyer_eligible": 0.95,
+    "leasehold_risky": 0.70,
+    "freehold_secure": 0.90,
+    "highdeposit_approved": 0.88,
+    "lowdeposit_risky": 0.75,
+    "newbuild_expensive": 0.80,
+    "oldproperty_cheaper": 0.65,
+    "london_affordable": 0.10,
+    "mortgage_complicated": 0.72,
+    "cashbuyer_strong": 0.92,
+    "lowcredit_rejected": 0.78,
+    "highcredit_approved": 0.89,
+    "terraced_affordable": 0.70,
+    "detached_expensive": 0.82,
+    "flat_affordable": 0.68,
+    "bungalow_spacious": 0.75,
+    "stampduty_expensive": 0.80
+}

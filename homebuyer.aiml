@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1">
+
+<category>
+    <pattern>HELLO</pattern>
+    <template>Hello! I am your Homebuyer Assistant. How can I help you today?</template>
+</category>
+
+<category>
+    <pattern>HI</pattern>
+    <template>Hello! How can I assist you with buying a home?</template>
+</category>
+
+<category>
+    <pattern>GOOD MORNING</pattern>
+    <template>Good morning! How can I help you with your home buying questions?</template>
+</category>
+<category>
+    <pattern>WHAT CAN YOU DO</pattern>
+    <template>
+        I can help with homebuyer questions, explain mortgages and property types, reason using logical knowledge, and classify house images.
+    </template>
+</category>
+
+<category>
+    <pattern>WHAT ARE YOUR CAPABILITIES</pattern>
+    <template>
+        I can answer homebuyer questions, perform logical reasoning, and analyse house images.
+    </template>
+</category>
+
+<category>
+    <pattern>WHAT IS A MORTGAGE</pattern>
+    <template>A mortgage is a loan used to purchase property, typically repaid over 20 to 30 years.</template>
+</category>
+
+<category>
+    <pattern>WHAT IS STAMP DUTY</pattern>
+    <template>Stamp Duty is a tax paid when purchasing property above a certain price in the UK.</template>
+</category>
+
+<category>
+    <pattern>HOW MUCH DEPOSIT DO I NEED</pattern>
+    <template>Most lenders require between 5% and 20% deposit depending on your financial profile.</template>
+</category>
+
+<category>
+    <pattern>WHAT IS FREEHOLD</pattern>
+    <template>Freehold means you own both the property and the land it stands on.</template>
+</category>
+
+<category>
+    <pattern>WHAT IS LEASEHOLD</pattern>
+    <template>Leasehold means you own the property for a fixed period but not the land.</template>
+</category>
+
+<category>
+    <pattern>WHAT IS A PROPERTY SURVEY</pattern>
+    <template>A property survey checks the condition of a house and identifies potential structural problems.</template>
+</category>
+
+<category>
+    <pattern>WHAT IS A MORTGAGE BROKER</pattern>
+    <template>A mortgage broker helps you find suitable mortgage deals from different lenders.</template>
+</category>
+
+<category>
+    <pattern>WHAT IS A SOLICITOR</pattern>
+    <template>A solicitor handles the legal process of buying a property.</template>
+</category>
+
+<category>
+    <pattern>WHAT IS LOAN TO VALUE</pattern>
+    <template>Loan to Value or LTV compares the mortgage amount to the value of the property.</template>
+</category>
+
+<category>
+    <pattern>HOW LONG DOES BUYING A HOUSE TAKE</pattern>
+    <template>The house buying process usually takes between 8 and 12 weeks.</template>
+</category>
+
+<category>
+    <pattern>WHAT IS AN EPC RATING</pattern>
+    <template>An Energy Performance Certificate shows how energy efficient a property is.</template>
+</category>
+
+<category>
+    <pattern>CAN I BUY A HOUSE WITH LOW DEPOSIT</pattern>
+    <template>Some lenders allow purchases with deposits as low as 5 percent.</template>
+</category>
+
+<category>
+    <pattern>WHAT IS IN THIS IMAGE</pattern>
+    <template>IMAGE_CLASSIFY</template>
+</category>
+
+<category>
+    <pattern>CLASSIFY IMAGE</pattern>
+    <template>IMAGE_CLASSIFY</template>
+</category>
+
+<category>
+    <pattern>WHAT TYPE OF HOUSE</pattern>
+    <template>IMAGE_CLASSIFY</template>
+</category>
+
+<category>
+    <pattern>WHAT IS LTV</pattern>
+    <template>LTV or Loan to Value compares the mortgage amount to the value of the property.</template>
+</category>
+
+<category>
+    <pattern>THANK YOU</pattern>
+    <template>You are welcome! Let me know if you need more help.</template>
+</category>
+
+<category>
+    <pattern>BYE</pattern>
+    <template>Goodbye! I hope you find the perfect home.</template>
+</category>
+
+<category>
+    <pattern>MY NAME IS *</pattern>
+    <template>Nice to meet you <set name="username"><star/></set>! How can I help you today?</template>
+</category>
+
+<category>
+    <pattern>WHAT IS MY NAME</pattern>
+    <template>Your name is <get name="username"/>!</template>
+</category>
+
+<category>
+    <pattern>HOUSE</pattern>
+    <template>I can help you with house buying questions. What would you like to know?</template>
+</category>
+
+<category>
+    <pattern>FREEHOLD</pattern>
+    <template>Freehold means you own both the property and the land it stands on.</template>
+</category>
+
+<category>
+    <pattern>DEPOSIT</pattern>
+    <template>Most lenders require between 5% and 20% deposit depending on your financial profile.</template>
+</category>
+
+<category>
+    <pattern>BUY</pattern>
+    <template>Are you looking to buy a property? I can help with mortgages, deposits and the buying process!</template>
+</category>
+
+</aiml>
